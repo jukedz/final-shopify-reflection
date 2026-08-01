@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Work+Sans:wght@300;400;500;600&family=Parisienne&display=swap');
+
+:root {
+  --crimson: #8a1c3c;
+  --crimson-dark: #5e1229;
+  --rose: #d98ba0;
+  --rose-soft: #f3dbe2;
+  --cream: #fbf3ea;
+  --cream-soft: #f6ebdd;
+  --ink: #3a2c2e;
+  --gold: #c9a15a;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: var(--ink);
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(circle at top left, var(--rose-soft) 0%, transparent 45%),
+    radial-gradient(circle at bottom right, var(--rose-soft) 0%, transparent 45%);
+  background-attachment: fixed;
+  line-height: 1.75;
+  font-size: 16.5px;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem 1.5rem;
+}
+
+/* Native Quarto/Pandoc title block, styled as a banner */
+#title-block-header {
+  background: linear-gradient(135deg, var(--crimson) 0%, var(--crimson-dark) 100%);
+  color: var(--cream);
+  text-align: center;
+  padding: 3rem 2rem 2.5rem 2rem;
+  margin: 0 0 2.5rem 0;
+  border-radius: 6px;
+  border: 1px solid var(--gold);
+  box-shadow: 0 6px 20px rgba(94, 18, 41, 0.25);
+  position: relative;
+}
+
+#title-block-header::before,
+#title-block-header::after {
+  content: "✿";
+  color: var(--gold);
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+#title-block-header .title {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--cream) !important;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  border-bottom: none;
+}
+
+#title-block-header .subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--rose-soft);
+  margin: 0 0 0.9rem 0;
+}
+
+#title-block-header .author,
+#title-block-header .date {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cream);
+  margin: 0.15rem 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--crimson);
+}
+
+body > h1 {
+  font-size: 1.95rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--rose);
+  position: relative;
+}
+
+body > h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--gold);
+  margin-top: 0.4rem;
+}
+
+.flourish {
+  text-align: center;
+  color: var(--gold);
+  font-size: 1.6rem;
+  margin: 2.5rem 0;
+}
+
+.cert-frame {
+  background-color: #ffffff;
+  border: 2px solid var(--rose);
+  outline: 1px solid var(--gold);
+  outline-offset: 6px;
+  box-shadow: 0 4px 18px rgba(138, 28, 60, 0.18);
+  border-radius: 4px;
+  padding: 1.4rem;
+  margin: 2rem auto 2.5rem auto;
+  max-width: 520px;
+  text-align: center;
+}
+
+.cert-frame img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+a {
+  color: var(--crimson);
+  font-weight: 500;
+  text-decoration-color: var(--rose);
+}
+
+a:hover {
+  color: var(--crimson-dark);
+}
+
+#TOC {
+  background-color: var(--rose-soft);
+  border: 1px solid var(--rose);
+  border-radius: 6px;
+  padding: 1.2rem 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+#TOC .toc-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--crimson);
+  font-weight: 700;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0.3rem;
+}
+
+#TOC a {
+  text-decoration: none;
+  color: var(--crimson-dark);
+}
+
+#TOC a:hover {
+  color: var(--crimson);
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
