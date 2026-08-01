@@ -1,0 +1,88 @@
+---
+title: "Final Shopify Store Reflection Report"
+subtitle: "Juke Vintage - A Semester of Building an E-Commerce Store"
+author: "Julie Diaz"
+date: today
+format:
+  html:
+    embed-resources: true
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Store Overview
+
+Juke Vintage is a secondhand and vintage clothing resale shop built on Shopify. Every item in the store is handpicked and one of a kind, sourced secondhand and resold with detailed condition notes so customers know exactly what they are buying. The product assortment spans clothing, footwear, and bags and accessories, with pieces ranging from about fifteen to sixty dollars. The target customer is a young woman in her college years through her late twenties who likes the idea of a unique vintage look but does not want the hassle of digging through racks herself, and who wants reassurance around sizing, condition, and shipping before she commits to a purchase she cannot try on first.
+
+## Final Store Evidence
+
+### Homepage
+
+The homepage introduces the brand with a scrolling hero banner, a promotional strip, a featured product carousel, a secondary banner section, and a personal welcome section, pairing a warm, first person voice with a real photo of the clothing rack the pieces come from. The four screenshots below show the full homepage from top to bottom.
+
+![Homepage - Hero Banner](images/homepage-1.png)
+
+![Homepage - Featured Products](images/homepage-2.png)
+
+![Homepage - Secondary Banner](images/homepage-3.png)
+
+![Homepage - Welcome Section](images/homepage-4.png)
+
+### Navigation Menu
+
+The main navigation includes Home, Contact, Bags and Accessories, Footwear, and Clothing, giving customers a direct path to whichever category they are shopping for.
+
+![Navigation Menu](images/navigation-menu.png)
+
+### Collection Page
+
+Each collection page, like Clothing, includes a short category description along with sorting and availability filters so customers can narrow down the product grid.
+
+![Collection Page](images/collection-page.png)
+
+### Product Page
+
+Individual product pages show the price, a written description, and both an add to cart and a buy it now option to keep the path to purchase short.
+
+![Product Page](images/product-page.png)
+
+### Policy and Contact Information
+
+The storefront footer includes links to the shipping policy, refund policy, privacy policy, contact information, and terms of service, all confirmed live on the site.
+
+![Storefront Footer with Policy Links](images/storefront-footer.png)
+
+### GA4 Analytics Evidence
+
+My connected GA4 property shows real-time tracking of customer activity, including page views, scroll depth, product views, and checkout events across the store.
+
+![GA4 Realtime Overview](images/ga4-realtime.png)
+
+## Retail Technology Reflection
+
+Building Juke Vintage on Shopify showed me how much of an e-commerce platform's value comes from what happens behind the scenes rather than just the storefront customers see. Settings like shipping zones, checkout configuration, and payment providers all had to be reviewed and set up correctly before the store could function as a real retail channel, even for a practice store not processing real transactions. I also learned that Shopify is built to connect outward to other platforms rather than operate in isolation, whether that meant installing the Google & YouTube app to link to GA4 or reviewing how a store could eventually connect to Google Shopping through Merchant Center. That taught me that choosing an e-commerce platform is really a decision about which ecosystem of tools a retailer wants to plug into, not just which shopping cart software looks nicest.
+
+## Merchandising Reflection
+
+I learned that merchandising decisions are inseparable from trust decisions, especially for a resale store where customers cannot touch or try on an item before buying. Structuring collections by category (Clothing, Footwear, Bags and Accessories) made browsing easier, but testing my own store's customer journey in Assignment 8 showed me a real gap between what I promised in my policies, like detailed measurements on every listing, and what actually appeared on the live product page. That was a useful reminder that a catalog is never really finished, it needs to be tested from a customer's perspective regularly to catch places where the storefront does not match the brand's promises. I also learned that consistent product photography matters just as much as the written description, since a cropped or inconsistent photo can undercut an otherwise clear, trustworthy listing.
+
+## Analytics Reflection
+
+Connecting GA4 to Shopify taught me that analytics setup is rarely instant. My first attempt at connecting through the Google & YouTube app accidentally linked to an unrelated property from a personal blog, and even after reconnecting the correct property, GA4 warned that it could take up to 48 hours to begin collecting data. Once data did start flowing, though, it was detailed enough to track specific customer behavior, including which exact products were viewed, when a customer began checkout, and how far they scrolled on a page. That level of detail helped me understand why retailers rely on analytics platforms rather than guessing at customer behavior, since GA4 could show me precisely which product a visitor looked at and whether they moved toward a purchase, not just how many people visited the site overall.
+
+## CPP Farm Store Application
+
+There are at least three specific ways the skills I practiced on Juke Vintage could support CPP Farm Store. First, GA4 event tracking could show which products, like specific produce items or gift bundles, get the most views and add to carts, helping the group prioritize what to feature in future campaigns rather than guessing at customer interest. Second, the checkout and policy review process I went through, making sure shipping, pickup, and contact information were clearly documented and visible, applies directly to CPP Farm Store, since a campus community placing pickup orders needs the same kind of clarity around timing and freshness that my customers need around shipping and condition. Third, the omnichannel thinking from the Google Shopping Ads certification work, particularly the idea of supporting both online sales and in-person visits from a single Merchant Center setup, maps well onto CPP Farm Store's situation as a physical, on-campus location whose real advantage is the visit itself, not just an online order.
+
+## Final Self-Assessment
+
+I am most proud of the trust and policy work I did in Assignment 6, since writing clear shipping, return, and privacy policies for a secondhand store forced me to think through real customer concerns, like how to handle one of a kind items that cannot be exchanged or restocked, rather than just filling in generic template text. If I had more time, I would go back and standardize my product photography and add the specific measurements my policies promise to every listing, since testing my own store's customer journey in Assignment 8 made it clear that gap was the most noticeable weak point between what I tell customers to expect and what they actually see on the page.
+
+## Appendix
+
+**GitHub Pages:** [https://jukedz.github.io/final-shopify-reflection/](https://jukedz.github.io/final-shopify-reflection/)
+
+**GitHub Repository:** [https://github.com/jukedz/final-shopify-reflection](https://github.com/jukedz/final-shopify-reflection)
