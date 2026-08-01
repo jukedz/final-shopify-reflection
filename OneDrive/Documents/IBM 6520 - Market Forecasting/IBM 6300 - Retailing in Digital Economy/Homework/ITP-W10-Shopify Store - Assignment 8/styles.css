@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #faf6f2;
+  color: #3a2a2a;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, .title, .subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  color: #6b1f2a;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.6em;
+}
+
+.subtitle {
+  font-weight: 500;
+  color: #8c4a52;
+}
+
+h2 {
+  border-bottom: 2px solid #6b1f2a;
+  padding-bottom: 0.3em;
+  margin-top: 1.6em;
+}
+
+h3 {
+  color: #8c4a52;
+}
+
+a {
+  color: #6b1f2a;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #8c4a52;
+}
+
+strong {
+  color: #6b1f2a;
+}
+
+img {
+  border: 1px solid #e5d9d0;
+  border-radius: 6px;
+  margin: 1em 0;
+  max-width: 100%;
+}
+
+.toc-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: #6b1f2a;
+}
+
+blockquote {
+  border-left: 3px solid #6b1f2a;
+  padding-left: 1em;
+  color: #5a4a4a;
+  font-style: italic;
+}
+
+code {
+  background-color: #f0e6de;
+  color: #6b1f2a;
+}
