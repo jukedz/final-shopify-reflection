@@ -1,0 +1,49 @@
+---
+title: "Final Group Member Evaluation Form"
+subtitle: "IBM/ITP 6300 - Group 1"
+author: "Julie Diaz"
+date: "August 11, 2026"
+format:
+  html:
+    embed-resources: true
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    number-sections: true
+---
+
+## Evaluation Details
+
+::: {.header-block}
+**Name:** Julie Diaz
+
+**Date:** 8/11/26
+
+**Group Name / Project Name:** Group 1
+:::
+
+Each group member is evaluated on a 1 to 100% scale. A rating of 100% reflects an equal contribution to the group project output. A rating below 100% reflects a member who did not do their fair share. One member may also be identified as MVP, contributing to the group's success above and beyond regular expectations.
+
+## Member Evaluations
+
+| Member Name | Grade (%) | MVP |
+|---|---|---|
+| Julie Diaz | 100% | **Yes** |
+| Cecilia Espina | 100% | |
+| Danielle Meza | 100% | |
+| Angela Qian | 45% | |
+
+## Comments
+
+> I am giving myself, Cecilia, and Danielle a 100% for project output because the three of us have consistently completed our weekly assignments on time, often early, and each of us has actively contributed to the group's work throughout the entire semester. As the group member who posts our weekly assignments and assigns tasks every Monday morning in our shared Google Doc, I have a clear view of who is meeting deadlines and who is not. This pattern continued through the final project, Cecilia, Danielle, and I each completed our designated sections on time and communicated consistently throughout the process.
+>
+> Angela has not met that same standard across the semester. She has been unresponsive during the process, regularly submits her portion of the work one to two weeks late, and when reminded or asked directly to submit, she says she will but does not follow through. This placed additional pressure on the rest of the group to cover gaps and adjust timelines to keep the project moving.
+>
+> For the final project specifically, the three of us worked hard to produce a cohesive and complete consulting report and presentation, and I believe our output reflects that effort. Based on Angela's consistent lack of responsiveness and follow through compared to the reliable, timely contributions from the rest of the team, I gave Angela a 45% to reflect the disparity in effort and output throughout the project.
+
+## Appendix
+
+**GitHub Pages:** [https://jukedz.github.io/group-member-evaluation/](https://jukedz.github.io/group-member-evaluation/)
+
+**GitHub Repository:** [https://github.com/jukedz/group-member-evaluation](https://github.com/jukedz/group-member-evaluation)
